@@ -1,5 +1,92 @@
+.header-fix{
+	padding: 5px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: white;
+}
 .logo-image{display: inline-block;
 	width: 140px;
 	height: 95px;
 	margin-left: 140px;
+	margin-right: 120px;
+	vertical-align: middle;
+}
+.navigacia{display: inline-block;
+vertical-align: middle;
+}
+.menu{display: inline-block;
+margin-left: 30px; 
+font-size: 16px;
+text-transform: uppercase;
+font-family: 'Poppins', sans-serif;
+}
+.image-box{
+	background-image: url(../images/fashion88.svg);
+	height: 380px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*.section1{margin-top: 120px;}
+.fashin-image{
+	margin: 0 auto;
+	width: 100%;
+}
+.section2-title{
+	margin-top: 85px;
+}*/
+.conteiner2{width: 1200px;
+	margin: 0 auto;
+/*background-color: grey;*/}
+.left-image{width: 500px;
+		height: 423px;
+		/*background-color: red;*/
+		background-image: url(../images/left1.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+.image-text{margin-top: 440px;
+background-color: white;}
+.image-text-title{ font-family: 'Playfair Display';
+font-size: 36px;
+margin-bottom: 10px;
+line-height: 1.6;}
+.image-text-text{font-family:'Poppins', sans-serif;
+font-size: 16px;
+line-height: 1.6;
+}
+.more{font-family:'Poppins', sans-serif;
+font-size: 14px;
+color: #FF7A00;
+text-transform: uppercase;
+margin-top: 10px;}
+.more::after{
+	content:' ';
+	width:30px;
+	height: 2px;
+	background-color: #FF7A00;
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.right-image{width: 500px;
+		height: 423px;
+		/*background-color: green;*/
+		background-image: url(../images/right1.svg);
+		background-size: cover;
+		background-repeat: no-repeat;}
+.im-wraper{display: flex;
+justify-content:space-around; }
+
+
+.popular-post{
+	font-family: 'Poppins', sans-serif;
+	font size: 22px;
+	color: #FF7A00;
+	margin-top: 85px;
+	margin-bottom: 85px;
+	margin-left: 85px;
+
 }
